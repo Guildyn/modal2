@@ -32,8 +32,7 @@ class App extends React.Component {
       <div className="App">
         <Backdrop show={this.state.showModal} cancelBackdrop={this.showModalHandler} />
         
-        <Modal show={this.state.showModal} /* cancelModal={this.showModalHandler} */ >
-          {/* <Booking cancelSubmition={this.showModalHandler} onSubmit={this.submitHandler} /> */}
+        <Modal show={this.state.showModal}>
           {submition}
         </Modal>
 
